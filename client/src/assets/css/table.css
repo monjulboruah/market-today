@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-data-container {
+  min-height: 100vh;
+  padding: 2%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),
+    url("../stockImage2.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+table {
+  display: inline-block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
+  border-collapse: collapse;
+  margin-top: 30px;
+  border: 1px solid #bdc3c7;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+#header {
+  background-color: #009688;
+  color: #fff;
+}
+
+.table-heading {
+  margin-top: 60px;
+  font-weight: 600;
+  text-align: center;
+
+  color: #fff;
+  padding: 10px 0px;
+}
+
+tr:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    width: 90%;
+  }
+}
