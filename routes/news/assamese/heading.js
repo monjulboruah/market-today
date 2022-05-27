@@ -3,7 +3,7 @@ const axios = require("axios").default;
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 
-var subscriptionKey = "a2d7dda10dce47bf91c51a4c25900d54";
+var subscriptionKey = "YOUR MICROSOFT SUBSCRIPTION KEY";
 var endpoint = "https://api.cognitive.microsofttranslator.com";
 
 // Add your location, also known as region. The default is global.
